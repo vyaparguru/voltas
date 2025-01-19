@@ -1,5 +1,5 @@
 import React from "react";
-import { FaTools, FaBolt, FaFaucet, FaSnowflake, FaFireExtinguisher, FaPumpMedical } from "react-icons/fa";
+import { FaTools, FaBolt, FaFaucet, FaSnowflake, FaFireExtinguisher, FaPumpMedical, FaFilter, FaPaintRoller, FaVolumeMute, FaUtensils, FaOilCan, FaSolarPanel } from "react-icons/fa";
 
 const services = [
   {
@@ -33,34 +33,40 @@ const services = [
     description: "Sump pumps are required to pump up storm and sewer water wherever the city mains are above house fixtures.",
   },
   {
-    icon: <FaTools />, // Replace with appropriate icon if needed
+    icon: <FaFilter />,
     title: "Dust Collection",
-    description: "Dust Collection systems are required wherever there are excessive amounts of dust produced, for example in wood shops or spray-painting facilities.",
+    description:
+      "Dust Collection systems are required wherever there are excessive amounts of dust produced, for example in wood shops or spray-painting facilities.",
   },
   {
-    icon: <FaTools />, // Replace with appropriate icon if needed
+    icon: <FaPaintRoller />,
     title: "Spray Booths",
-    description: "Voltas engineers design, draft, and field review paint spray booths. Spray booths present health hazards which can be mitigated or eliminated through good practice and engineering.",
+    description:
+      "Voltas engineers design, draft, and field review paint spray booths. Spray booths present health hazards which can be mitigated or eliminated through good practice and engineering.",
   },
   {
-    icon: <FaTools />, // Replace with appropriate icon if needed
+    icon: <FaVolumeMute />,
     title: "Noise Mitigation",
-    description: "Voltas Engineering is the premier Noise Mitigation consultant in the lower mainland. Our company is recommended by the City of Surrey because of our extensive N.M. engineering experience.",
+    description:
+      "Voltas Engineering is the premier Noise Mitigation consultant in the lower mainland. Our company is recommended by the City of Surrey because of our extensive N.M. engineering experience.",
   },
   {
-    icon: <FaTools />, // Replace with appropriate icon if needed
+    icon: <FaUtensils />,
     title: "Kitchen Hoods",
-    description: "Voltas works with suppliers and contractors to provide effective and code-compliant kitchen hoods, having worked on many renowned restaurants in the Lower Mainland in the past 5 years.",
+    description:
+      "Voltas works with suppliers and contractors to provide effective and code-compliant kitchen hoods, having worked on many renowned restaurants in the Lower Mainland in the past 5 years.",
   },
   {
-    icon: <FaTools />, // Replace with appropriate icon if needed
+    icon: <FaSolarPanel />,
     title: "Energy Design",
-    description: "Voltas engineers have been designing and reviewing commercial, industrial, and residential electrical systems since 2008. Our team provides lighting and power layouts as well as load calculations and design details.",
+    description:
+      "Voltas engineers have been designing and reviewing commercial, industrial, and residential electrical systems since 2008. Our team provides lighting and power layouts as well as load calculations and design details.",
   },
   {
-    icon: <FaTools />, // Replace with appropriate icon if needed
+    icon: <FaOilCan />,
     title: "Grease Interceptor",
-    description: "Home Services Grease Interceptor GREASE INTERCEPTOR Grease traps and grease interceptors are essential for effective plumbing.",
+    description:
+      "Home Services Grease Interceptor GREASE INTERCEPTOR Grease traps and grease interceptors are essential for effective plumbing.",
   },
 ];
 

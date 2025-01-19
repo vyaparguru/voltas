@@ -58,7 +58,7 @@ const Testimonials = () => {
 
         {/* Carousel */}
         <div className="max-w-3xl mx-auto">
-          <div className="text-md leading-relaxed mb-4 px-20 md:px-0">
+          <div className="text-md leading-relaxed mb-4 px-16 md:px-0">
             {testimonials[currentIndex].quote}
           </div>
           <div className="font-semibold ">
