@@ -51,19 +51,22 @@ export default function Footer() {
             alt="Voltas Engineering"
             className="h-12 mb-2"
           />
-          <div className="flex gap-4 mt-4">
+          {/* <div className="flex gap-4 mt-4">
             <a href="https://facebook.com/voltasengineering" target="_blank" rel="noreferrer">
               <FaFacebook className="h-6 w-6 text-[#71bf44]" />
             </a>
             <a href="https://instagram.com/voltasengineering" target="_blank" rel="noreferrer">
               <FaInstagram className="h-6 w-6 text-[#71bf44]" />
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center text-sm mt-6 md:mt-0">
           <div className="flex items-center gap-2 mx-4">
             <FaPhoneAlt className="text-[#71bf44] w-6 h-6" />
-            <span>+1 604-593-2293</span>
+            <div className='flex flex-col justify-center items-center'>
+            <span>+1 (506) 501 9545</span>
+            <span>+1 (506) 606-0040</span>
+            </div>
           </div>
           <div className="flex items-center gap-2 mx-4">
             <FaEnvelope className="text-[#71bf44] w-6 h-6" />
@@ -71,7 +74,7 @@ export default function Footer() {
           </div>
           <div className="flex items-center gap-2 mx-4">
             <FaMapMarkerAlt className="text-[#71bf44] w-6 h-6" />
-            <span>#211-8433 132 Street, Surrey, BC, V3W 0A6</span>
+            <span>229, Collishaw St. Moncton, NB E1C 9P9</span>
           </div>
         </div>
       </div>
@@ -80,7 +83,7 @@ export default function Footer() {
           Copyright © 2025 | <span className="text-[#71bf44]">Voltas Engineering</span> | All rights
           reserved. | Website Developed by{" "}
           <a href="https://vyaparguru.com" target="_blank" rel="noreferrer" className="text-[#71bf44]">
-            Vyapar Guru
+          Vyapar Guru Infotech Pvt. Ltd.
           </a>
         </p>
       </div>
